@@ -3,6 +3,7 @@ import React from "react";
 const Consultants =()=>{
     return(
         <>
+        <section className="" id="#id-consultants">
         <div className=" text-center mx-4 space-y-2 ">
             <h1 class="text-red-900 text-4xl font-bold h-20">CONSULTANTS</h1>
         </div>    
@@ -10,7 +11,7 @@ const Consultants =()=>{
 <div class=' h-96 w-full p-20'>
         <h1 class="mb-2 text-1xl  text-center text-red-900">CONSULTING DEPARTMENT</h1>
 
-        <p class="text- text-center text-black">Based on a pool of experienced and highly qualified “Senior Partner Consultants’’ acting
+        <p class="text- text-center text-black leading-loose">Based on a pool of experienced and highly qualified “Senior Partner Consultants’’ acting
 at each segment of the value chains:
 
 Irrigation design and development, Agriculture production and harvest, Agriculture post-
@@ -120,11 +121,9 @@ multinational companies with a Swiss Federal Certificate of Competence</p>
 
 <p class="text- text-left text-black p-8">a) Intervalle Genève SA Management Team</p>
 
-
 <section>
 
   <div class="p-20 grid grid-cols-4">  
- 
     <div class="w-64 square overflow-hidden ">
       <img class="w-full" src="images/gloria.jpeg"/>
       <div class="px-6 py-4 bg-white">
@@ -137,7 +136,6 @@ management.
       </div>
      
     </div>
-
     <div class="w-64 square overflow-hidden  ">
       <img class="w-full" src="images/mary.jpeg"/>
       <div class="px-6 py-4 bg-white">
@@ -147,12 +145,9 @@ management.
         <p class="text-red-900 text-base">
         Has served in several key Admin and HR roles responsible for leading  
 teams in acquiring, developing, mobilizing and rewarding a company’s workforce  with over 7 years.
-
         </p>
       </div>
-     
     </div>
-
     <div class="w-64 square overflow-hidden  ">
       <img class="w-full" src="images/simon.jpeg"/>
       <div class="px-6 py-4 bg-white">
@@ -160,13 +155,9 @@ teams in acquiring, developing, mobilizing and rewarding a company’s workforce
         Project Manager 
         <p class="text-red-900 text-base">
         current Project Manager for the rice project. He pursued his passion for  Civil Engineering acquired at a young age and now holds a First-Class B.Sc. in Civil  
-.
-
         </p>
       </div>
-     
     </div>
-
     <div class="w-64 square overflow-hidden ">
       <img class="w-full" src="images/gloria.jpeg"/>
       <div class="px-6 py-4 bg-white">
@@ -177,7 +168,6 @@ teams in acquiring, developing, mobilizing and rewarding a company’s workforce
 management.
         </p>
       </div>
-     
     </div>
   </div>
 
@@ -185,6 +175,7 @@ management.
 <div className="bg-lime-700 h-20"></div>
 
 </div>
+</section>
 
 
  

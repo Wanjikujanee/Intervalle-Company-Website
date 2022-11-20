@@ -3,6 +3,7 @@ import React from "react";
 const Contact =()=>{
     return(
         <>
+        <section className="" id="#id-contact">
             <h1 class="text-red-900 text-4xl font-bold h-20 text-center">Contact</h1>
 
 <div>
@@ -115,6 +116,7 @@ Geneva, Switzerland
     </div>
   </div>
 </footer>
+</section>
         </>
                );
             };

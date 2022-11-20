@@ -5,14 +5,15 @@ const About =()=>{
 
         <>
 
-        <section className="">
+        <section className=""id="#id-about">
         <div className=" text-center mx-4 space-y-2 ">
             <h1 class="text-red-900 text-4xl font-bold h-20">About</h1>
         </div>
-           <div className="flex justify-between  ">
+           <div className="flex justify-between p-24 gap-14">
 
-           <h1 class="">Background</h1>
-           <span>Consulting & Agricultural Value Chain Company, registered
+         <p>
+            <h1 class="font-bold text-2xl">Background</h1><br></br>
+           Consulting & Agricultural Value Chain Company, registered
 in Geneva in 1984, Intervalle Genève SA is active in the
 structuring of soft commodities value chain programs and
 is the promoter of “West African Rice Corridor Project” and
@@ -35,8 +36,8 @@ the necessary skills and experience to respond to today’s
 challenging needs in the Agricultural sector. The focus of
 Intervalle is finding and providing tailor made solutions and
 exceeding client satisfaction, these are the attributes that
-motivates the dedicated team at Intervalle.</span>
-<img class="w-[300px] vertical-align: right "src="images/VALUE.jpg"/>
+motivates the dedicated team at Intervalle.</p>
+<img class="w-[300px] vertical-align: right h-100"src="images/VALUE.jpg"/>
 </div>
 </section>
 
@@ -51,7 +52,7 @@ motivates the dedicated team at Intervalle.</span>
                    ">
             <div class="flex flex-col items-center pt-4 pb-10">
                
-                <h5 class="mb-1 text-xl font-medium
+                <h5 class="mb-1 text-2xl font-medium
                            text-green-500 ">
                     Mission
                 </h5>
@@ -74,7 +75,7 @@ integrity  with our partners.
                    ">
             <div class="flex flex-col items-center pt-4 pb-10">
                
-                <h5 class="mb-1 text-xl font-medium
+                <h5 class="mb-1 text-2xl font-medium
                            text-green-500 ">
                     Vision
                 </h5>
@@ -95,7 +96,7 @@ hain approach.
                    ">
             <div class="flex flex-col items-center pt-4 pb-10">
                
-                <h5 class="mb-1 text-xl font-medium
+                <h5 class="mb-1 text-2xl font-medium
                            text-green-500 ">
                     Objective
                 </h5>
@@ -122,32 +123,33 @@ necessary to proceed.
     </div>
 </section>
 <section className="">
-           <div className="flex justify-between bg-gray-50 ">
-           <img class="w-[300px] vertical-align: right "src="images/Group 32.png"/>
-
-           <p>The company upholds the following
-values as a guideline to its operation
-and business transactions:
-1.Commitment: We display traits of sincerity
-focused on staying true to a course of action.
-2.Integrity: Acting ethically is a priority for
+           <div className="flex justify-between bg-gray-50 p-24 gap-14">
+           <img class="w-[400px] right- "src="images/Group 32.png"/>
+           <p className="leading-loose">
+           <h1 class="font-bold text-2xl text-green-500">Values</h1><br></br>
+            <h2 className="font-bold">The company upholds the following
+values as a guideline to its operation.
+and business transactions:</h2><br></br>
+<span className="font-bold">1.Commitment:</span> We display traits of sincerity
+focused on staying true to a course of action.<br></br>
+< span className="font-bold">2.Integrity:</span> Acting ethically is a priority for
  everyone representing the company, this shapes
-our behavior as a whole
-3.Customer Appreciation: We exhibit a joy not
+our behavior as a whole.<br></br>
+<span className="font-bold">3.Customer Appreciation:</span> We exhibit a joy not
  just for the work but also the people around
 us to foster boldness, innovativeness, and by
  creating a great customer experience with
 staying true to the words we speak and the 
-bonds we make.
-4.Teamwork: We pride ourselves as a people
+bonds we make.<br></br>
+<span className="font-bold">4.Teamwork:</span> We pride ourselves as a people
  centered organization hence we encourage
 working together to deliver superior services
- to our clients.
-5.Professionalism: We exhibit professionalism
+ to our clients.<br></br>
+<span className="font-bold">5.Professionalism:</span> We exhibit professionalism
  through reliability, consistency and honesty
 whilst holding ourselves accountable for our 
-actions
-6.Accountability: We accept responsibility 
+actions.<br></br>
+<span className="font-bold">6.Accountability:</span> We accept responsibility 
 for our actions and inactions, it defines our
 ultimate way to build trust.</p>
 </div>
