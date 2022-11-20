@@ -15,6 +15,8 @@ import Partner from './Components/Partner';
 
 function App() {
   return (
+
+
    <div className="App">
       <Navbar/>
       <Home/>

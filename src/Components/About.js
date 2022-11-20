@@ -124,7 +124,7 @@ necessary to proceed.
 </section>
 <section className="">
            <div className="flex justify-between bg-gray-50 p-24 gap-14">
-           <img class="w-[400px] right- "src="images/Group 32.png"/>
+           <img class="w-[400px]  h-96 right- "src="images/Group 32.png"/>
            <p className="leading-loose">
            <h1 class="font-bold text-2xl text-green-500">Values</h1><br></br>
             <h2 className="font-bold">The company upholds the following
