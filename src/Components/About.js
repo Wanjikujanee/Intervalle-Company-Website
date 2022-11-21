@@ -5,7 +5,7 @@ const About =()=>{
 
         <>
 
-        <section className=""id="#id-about">
+        <section className=""id="About">
         <div className=" text-center mx-4 space-y-2 ">
             <h1 class="text-red-900 text-4xl font-bold h-20">About</h1>
         </div>
