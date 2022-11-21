@@ -43,7 +43,7 @@ P.O.Box 5159 – 1204 GenevaSwitzerland
               
               
             </tr>
-            <tr class="bg-white dark:bg-gray-800">
+            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Telephone
                 </th>
@@ -52,7 +52,7 @@ P.O.Box 5159 – 1204 GenevaSwitzerland
                 </td>
              
             </tr>
-            <tr class="bg-white dark:bg-gray-800">
+            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Type of organization
                 </th>
@@ -60,7 +60,7 @@ P.O.Box 5159 – 1204 GenevaSwitzerland
                 Limited liability company
                 </td>
             </tr>
-            <tr class="bg-white dark:bg-gray-800">
+            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Type of business
                 </th>
@@ -68,7 +68,7 @@ P.O.Box 5159 – 1204 GenevaSwitzerland
                 Advisory Services
                 </td>
             </tr>
-            <tr class="bg-white dark:bg-gray-800">
+            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Year Incorporated & Taken over
                 </th>
@@ -76,7 +76,7 @@ P.O.Box 5159 – 1204 GenevaSwitzerland
                 1984 / 2014
                 </td>
             </tr>
-            <tr class="bg-white dark:bg-gray-800">
+            <tr class="bg-white dark:bg-gray-800 dark:border-gray-700">
                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Summary of main business
 Activities

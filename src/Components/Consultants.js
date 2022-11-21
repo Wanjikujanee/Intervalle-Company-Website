@@ -7,7 +7,7 @@ const Consultants =()=>{
         <div className=" text-center mx-4 space-y-2 ">
             <h1 class="text-red-900 text-4xl font-bold h-20">Consultants</h1>
         </div>    
-<div className="bg-lime-700 h-100">
+<div className="bg-lime-600 h-100">
 <div class=' h-96 w-full p-20'>
         <h1 class="mb-2 text-1xl  text-center text-red-900">CONSULTING DEPARTMENT</h1>
 
@@ -76,19 +76,21 @@ agriculture full value chain and ability to interact with all stakeholders.</p>
 <section>
 
   <div class="p-24 grid grid-cols-3">  
- 
-    <div class="w-64 square overflow-hidden ">
-      <img class="w-full" src="images/"/>
+
+
+  <div class="w-64 square overflow-hidden">
+      <img class="w-full h-64" src="images/Njack.jpg"/>
       <div class="px-6 py-4 bg-white">
-        <div class="font-bold text-xl mb-2 text-red-900 ">NJACK KANE   </div>
-        CEO Chairman
+        <div class="font-bold text-xl mb-2 text-red-900">GIANNI SARGENTI  </div>
+        CFO & Administrator  
         <p class="text-red-900 text-base">
-        Entrepreneur with extensive experience (over 20 years) in rice trading with very  strong connection with the African continent; as current CEO of Intervalle.
+        Senior Banking Executive in Commodity Trade Finance (CTF) with more than  thirty-year experience in Swiss, international and multicultural banking . 
+
+
         </p>
       </div>
      
     </div>
-
     <div class="w-64 square overflow-hidden  ">
       <img class="w-full" src="images/GIANNI.jpeg"/>
       <div class="px-6 py-4 bg-white">
@@ -123,7 +125,7 @@ multinational companies with a Swiss Federal Certificate of Competence .</p>
 
 <section>
 
-  <div class="p-20 grid grid-cols-4">  
+  <div class="p-20 grid grid-cols-4 ">  
     <div class="w-64 square overflow-hidden ">
       <img class="w-full" src="images/"/>
       <div class="px-6 py-4 bg-white">
@@ -173,7 +175,7 @@ management.
   </div>
 
 </section>
-<div className="bg-lime-700 h-20"></div>
+<div className="bg-lime-600 h-20"></div>
 
 </div>
 </section>
