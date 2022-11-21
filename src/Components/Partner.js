@@ -3,10 +3,10 @@ import React from "react";
 const Partner =()=>{
     return(
         <>
-        <section className="" id="#id-partner">
+        <section className="" id="Partner">
         <div class="">
          <div class="bg-white h-20 "></div>
-            <h1 className="text-center text-red-900 font-bold text-4xl h-20">PARTNERSHIP</h1>
+            <h1 className="text-center text-red-900 font-bold text-4xl h-20">Partnership</h1>
             <h2 class="text-bold text-red-900 4xl text-center h-20">SOME OF THE INTERNATIONAL TECHNICAL PARTNERS</h2>
 
             <section>

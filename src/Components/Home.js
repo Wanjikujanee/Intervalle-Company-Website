@@ -3,7 +3,7 @@ import React from "react";
 const Home =()=>{
     return(
         <>
-        <section className="" id="#id-home">
+        <section className="" id="Home">
         <div className="">
 <div class="relative md:text-base">
         <img src="images/IMAGE.jpg" />
@@ -27,6 +27,7 @@ in West Africa. To be able to do this effectively and efficiently, the company w
 existing bottlenecks in the sector and also work closely with the authorities to see to its fruition.</p>
       </div>
     </div>
+  
     </div>
     </section>
         </>

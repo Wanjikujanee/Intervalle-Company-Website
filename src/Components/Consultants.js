@@ -3,9 +3,9 @@ import React from "react";
 const Consultants =()=>{
     return(
         <>
-        <section className="" id="#id-consultants">
+        <section className="" id="Consultant">
         <div className=" text-center mx-4 space-y-2 ">
-            <h1 class="text-red-900 text-4xl font-bold h-20">CONSULTANTS</h1>
+            <h1 class="text-red-900 text-4xl font-bold h-20">Consultants</h1>
         </div>    
 <div className="bg-lime-700 h-100">
 <div class=' h-96 w-full p-20'>
@@ -27,7 +27,7 @@ agriculture full value chain and ability to interact with all stakeholders.</p>
 <div class="w-full max-w-sm bg-white border border-gray-200 straight-lg shadow-md h-80">
  
     <div class="flex flex-col items-center pb-10">
-        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="images/megan.jpeg "/>
+        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="images/ "/>
         <h5 class="mb-1 text-xl font-medium text-red-900 dark:text-white">GABRIEL LOPES </h5>
         <span class="text-sm text-red-900 font-semibold"> Financial Consultant</span>
         <span class="text-sm text-red-900 text-center text-1xl"> An extensive experience of 35 years in banking with  a strong knowledge of bank management and strategic organization</span>
@@ -78,7 +78,7 @@ agriculture full value chain and ability to interact with all stakeholders.</p>
   <div class="p-24 grid grid-cols-3">  
  
     <div class="w-64 square overflow-hidden ">
-      <img class="w-full" src="images/gloria.jpeg"/>
+      <img class="w-full" src="images/"/>
       <div class="px-6 py-4 bg-white">
         <div class="font-bold text-xl mb-2 text-red-900 ">NJACK KANE   </div>
         CEO Chairman
@@ -110,7 +110,7 @@ agriculture full value chain and ability to interact with all stakeholders.</p>
         CTO & Administrator  
         <p class="text-red-900 text-base">
         For nearly 25 years, as an engineer, consultant and then IS manager for  
-multinational companies with a Swiss Federal Certificate of Competence</p>
+multinational companies with a Swiss Federal Certificate of Competence .</p>
       </div>
      
     </div>
@@ -125,13 +125,14 @@ multinational companies with a Swiss Federal Certificate of Competence</p>
 
   <div class="p-20 grid grid-cols-4">  
     <div class="w-64 square overflow-hidden ">
-      <img class="w-full" src="images/gloria.jpeg"/>
+      <img class="w-full" src="images/"/>
       <div class="px-6 py-4 bg-white">
-        <div class="font-bold text-xl mb-2 ">GLORIA AGYARE </div>
-        Intern
+        <div class="font-bold text-xl mb-2 ">PHANUEL ELI FIAMOR  </div>
+        General Manager  
         <p class="text-red-900 text-base">
-        Environmentalist and aspiring food technologist with experience in youth  education and engagement, as well as cross-sectorial community-based project 
-management.
+        With about sixteen (16) years’ experience in the Banking sector with related  
+expertise in the field of Credit risk administration and Banking operations. 
+
         </p>
       </div>
      
@@ -154,7 +155,7 @@ teams in acquiring, developing, mobilizing and rewarding a company’s workforce
         <div class="font-bold text-xl mb-2 text-red-900">SIMEON NDAHIMANA  </div>
         Project Manager 
         <p class="text-red-900 text-base">
-        current Project Manager for the rice project. He pursued his passion for  Civil Engineering acquired at a young age and now holds a First-Class B.Sc. in Civil  
+        current Project Manager for the rice project. He pursued his passion for  Civil Engineering acquired at a young age and now holds a First-Class B.Sc.  
         </p>
       </div>
     </div>
