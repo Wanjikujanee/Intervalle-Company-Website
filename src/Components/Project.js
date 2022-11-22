@@ -6,7 +6,7 @@ const Project =()=>{
 <section className="" id="Project">
           <div className=" text-center mx-4 space-y-2 ">
             <h1 class="text-red-900 text-4xl font-bold h-20">Project</h1>
-            <h2 class="mb-2 text-2xl  text-center text-red-900 h-20">INTERVALLE RICE FLAGSHIP PROJECT  </h2>
+            <h2 class="mb-2 text-1xl  text-center text-red-900 h-20">INTERVALLE RICE FLAGSHIP PROJECT  </h2>
 
         </div>
         <div class="relative h-60 bg-none">
@@ -16,39 +16,53 @@ const Project =()=>{
 
         </div>
 
-       
     <div class="container mx-auto h-30">
-      <div class=' h-40 w-full p-16'>
-        <p class="text- text-center text-black leading-loose ">At Intervalle we strive to be an industry standard in service to customers by using our leverage
-on high negotiation and deal structuring skills to deliver value to all stakeholders along the
-different Agricultural value chains by maintaining
-integrity  with our partners.</p>
-      </div>
-    </div>
+      <div class=' h-40 w-full p-20'>
+        <p class="text-md text-center text-black leading-loose ">
+At Intervalle we strive to be an industry standard in service <br></br>to customers by using our leverage
+on high negotiation and<br></br> deal structuring skills to deliver value to all stakeholders along <br></br>the
+different Agricultural value chains by maintaining integrity  <br></br>with our partners.</p>
+      </div> 
+    </div> 
+    <div className="bg-white h-10"></div>
     <div class="container mx-auto">
-      <div class=' h-30 w-94 p-20'>
-        <h1 class="mb-2 text-2xl font-bold text-center text-black h-14">Flagship Projects</h1>
-        <p class=" text-center text-black leading-loose"><span className="font-bold text-5xl gap-6">.</span>Intervalle Geneve SA led “West Africa Rice Corridor” Project is targeting the following countries:  Cote d’Ivoire,
+      <div class=' h-30 w-94 p-40'>
+        <h1 class="mb-2 text-2xl font-bold text-center tracking-normal text-black h-14">Flagship Projects</h1>
+          <p>
+            <h1 class=" text-2xl leading-8 tracking-wide "></h1>
+            <span className="font-bold text-5xl">.</span>Intervalle Geneve SA led “West Africa Rice Corridor” Project is targeting the following countries:  Cote d’Ivoire,
          Ghana, Liberia, Senegal, Burkina Faso, and Sierra Leone. 
         Intervalle as its initial  phase, it has partnered in each country with the Government, Farmer Based Organizations, and  local and international private sector
          to execute the agreed project. Intervalle has successfully  invited selected global international, regional strategic and technical partners to execute in close 
-          collaboration with the ECOWAS Commission the regional program.  </p>
-<p class=" text-center text-black leading-loose"><span className="font-bold text-5xl gap-6">.</span>Intervalle Genève S.A, partnered and signed an agreement with the Ministry of Food and
+          collaboration with the ECOWAS Commission the regional program. </p>
+<p>
+
+            <h1 class="text-2xl tracking-wide leading-8 "></h1>
+            <span className="font-bold text-5xl">.</span>Intervalle Genève S.A, partnered and signed an agreement with the Ministry of Food and
 Agriculture (MOFA) in July, 2018 to co-execute Planting for Food and Jobs- the Rice Chapter.
 Intervalle Ghana ltd leads the implementation of the in-growers schemes proof of concept with
 first class coalition partners in two selected areas in Ghana ensuring the full value chain approach
 is successfully implemented which will allow scaling up and replication in Ghana and other
-ECOWAS countries..</p>
-<p class=" text-center text-black leading-loose"><span className="font-bold text-5xl gap-6">.</span>For that purpose, Intervalle has engaged with the Government to jointly secure with both  development institutions 
+ECOWAS countries.</p>
+
+<p>
+            <h1 class=" text-2xl tracking-wide leading-8 "></h1>
+            <span className="font-bold text-5xl">.</span>For that purpose, Intervalle has engaged with the Government to jointly secure with both  development institutions 
 and international private sector partners the most adapted funding  mechanism 
 to prepare to attract public and private resources to develop/improve infrastructure  along the value chain (irrigation, processing facility, storage etc.) 
-for commercial rice production  through PPP.  </p>
-<p class=" text-center text-black leading-loose"><span className="font-bold text-5xl gap-6">.</span>Intervalle Genève SA has set up Intervalle Ghana as a wholly owned Ghanaian company which  act as Technical 
-Operator (TO), is in charge of the design and implementation of the project.  Intervalle Ghana shall coordinate, monitor and report monthly all activities based on the key 
- indicators of management team, coalition partners, funding, and financing parties. </p>
+for commercial rice production  through PPP.</p>
+
+ <p>
+            <h1 class=" text-2xl leading-8tracking-wide"></h1>
+            <span className="font-bold text-5xl">.</span>Intervalle Genève SA has set up Intervalle Ghana as a wholly owned Ghanaian company which  act as Technical 
+Operator (TO), is in charge of the design and implementation of the project.  Intervalle Ghana shall coordinate, monitor and report monthly all activities<br></br> based on the key 
+ indicators of management team, coalition partners, funding, and financing parties.</p>
       </div>
     </div>
-    <div class="container mx-auto">
+    
+
+    
+    <div class="container mx-auto top-4">
       <div class=' h-30 w-full p-16'>
         <h1 class="mb-2 text-2xl font-bold text-left text-black">Activities</h1>
         <p class="text- text-left text-black leading-8"> 1.Intervalle is the promoter of the agricultural value chain projects, responsible for          the design and
@@ -67,22 +81,21 @@ Operator (TO), is in charge of the design and implementation of the project.  In
       </div>
     </div>
 
-    <div class="container mx-auto p-40  ">
-      <div class=' h-50  p-10 border-4 rounded-lg border-black '>
-        <h1 class="mb-2 text-2xl font-bold text-center text-black ">GUIDING PRINCIPLES</h1>
-        <p class="font-normal text-black leading-loose ">
-            <h1 className="font-bold">The five guiding principles driving the Intervalle PPP programme are:</h1><br></br>
+    <div class="mx-4 bg-white w-94 ">        
+    <div class="p-20 border-black border-4 rounded-lg">
+        <h2 class="mb-2 text-xl font-bold text-center text-black lg:text-2xl">GUIDING PRINCIPLES</h2>
+        <p class="text-md text-black"> <h1 className="font-bold">The five guiding principles driving the Intervalle PPP programme are:</h1><br></br>
 1 Local ownership and alignment with country goals.<br></br>
 2 Multi-stakeholder engagement with open and inclusive approaches in supporting
       small holders.<br></br>
 3.A market-driven approach led by the private sector and rooted in viable business
       cases for both public and private parties.<br></br>
-    4. Global support by an international network providing solidarity and support.<br></br>
+ 4. Global support by an international network providing solidarity and support.4. Global support by an international network providing solidarity and support.<br></br>
 5. Holistic promotion on best practices on land governance and integrating full 
-       value chains that benefit all actors in the Food & Agriculture sector.
-            </p>
-      </div>
+       value chains that benefit all actors in the Food & Agriculture sector.</p>
     </div>
+</div>
+<div className="bg-white h-20"></div>
     
     </section>
 

@@ -5,26 +5,26 @@ const Consultants =()=>{
         <>
         <section className="" id="Consultant">
         <div className=" text-center mx-4 space-y-2 ">
-            <h1 class="text-red-900 text-4xl font-bold h-20">Consultants</h1>
+            <h1 class="text-red-900 text-4xl font-bold h-20  ">Consultants</h1>
         </div>    
 <div className="bg-lime-600 h-100">
 <div class=' h-96 w-full p-20'>
-        <h1 class="mb-2 text-1xl  text-center text-red-900">CONSULTING DEPARTMENT</h1>
+        <h1 class="mb-2 text-1xl  text-center text-red-900 md:text-xl">CONSULTING DEPARTMENT</h1>
 
         <p class="text- text-center text-black leading-loose">Based on a pool of experienced and highly qualified “Senior Partner Consultants’’ acting
 at each segment of the value chains:
 
 Irrigation design and development, Agriculture production and harvest, Agriculture post-
-harvest at large, Food sourcing and distribution network. Collectively the team has proven
+harvest at large, Food sourcing and distribution network. Collectively the team <br></br>has proven
 
 expertise and experience both technical and financial within below key segments of the
 agriculture full value chain and ability to interact with all stakeholders.</p>
       </div>
         
-      <h1 class="mb-2 text-1xl  text-center text-red-900 ">SOME OF THE IN-HOUSE CONSULTANTS</h1>
+      <h1 class="mb-2 text-1xl  text-center text-red-900 md:text-xl">SOME OF THE IN-HOUSE CONSULTANTS</h1>
 
 <div className="grid grid-cols-4 gap-4 top-4 p-8" >
-<div class="w-full max-w-sm bg-white border border-gray-200 straight-lg shadow-md h-80">
+<div class="w-full  bg-white border border-gray-200 straight-lg shadow-md h-80 rounded-md ">
  
     <div class="flex flex-col items-center pb-10">
         <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="images/ "/>
@@ -35,7 +35,7 @@ agriculture full value chain and ability to interact with all stakeholders.</p>
         
     </div>
 </div>
-<div class="w-full max-w-sm bg-white border border-gray-200 straight-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full max-w-sm bg-white border border-gray-200 rounded-md straight-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
  
     <div class="flex flex-col items-center pb-10">
         <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="images/VEKUA.jpeg"/>
@@ -46,9 +46,9 @@ agriculture full value chain and ability to interact with all stakeholders.</p>
         
     </div>
 </div>
-<div class="w-full max-w-sm bg-white border border-gray-200 straight-lg  shadow-md dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full max-w-sm bg-white border border-gray-200 straight-lg rounded-md shadow-md dark:bg-gray-800 dark:border-gray-700">
  
-    <div class="flex flex-col items-center pb-10">
+    <div class=" flex flex-col flex-wrap items-center pb-10">
         <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="images/MARCO .jpeg"/>
         <h5 class="mb-1 text-xl font-medium text-red-900 dark:text-white">MARCO PREHN </h5>
         <span class="text-sm text-red-900 font-semibold"> Senior Executive for Strategy</span>
@@ -57,7 +57,7 @@ agriculture full value chain and ability to interact with all stakeholders.</p>
         
     </div>
 </div>
-<div class="w-full max-w-sm bg-white border border-gray-200 straight-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full max-w-sm bg-white border border-gray-200 rounded-md straight-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
  
     <div class="flex flex-col items-center pb-10">
         <img class="w-24 h-24 mb-3 rounded-full shadow-lg"  src="images/megan.jpeg "/>
@@ -78,7 +78,7 @@ agriculture full value chain and ability to interact with all stakeholders.</p>
   <div class="p-24 grid grid-cols-3">  
 
 
-  <div class="w-64 square overflow-hidden">
+  <div class="w-64 square rounded-md overflow-hidden">
       <img class="w-full h-64" src="images/Njack.jpg"/>
       <div class="px-6 py-4 bg-white">
         <div class="font-bold text-xl mb-2 text-red-900">GIANNI SARGENTI  </div>
@@ -91,7 +91,7 @@ agriculture full value chain and ability to interact with all stakeholders.</p>
       </div>
      
     </div>
-    <div class="w-64 square overflow-hidden  ">
+    <div class="w-64 square rounded-md overflow-hidden  ">
       <img class="w-full" src="images/GIANNI.jpeg"/>
       <div class="px-6 py-4 bg-white">
         <div class="font-bold text-xl mb-2 text-red-900">GIANNI SARGENTI  </div>
@@ -105,7 +105,7 @@ agriculture full value chain and ability to interact with all stakeholders.</p>
      
     </div>
 
-    <div class="w-64 square overflow-hidden  ">
+    <div class="w-64 square rounded-md overflow-hidden  ">
       <img class="w-full" src="images/monay.jpeg"/>
       <div class="px-6 py-4 bg-white">
         <div class="font-bold text-xl mb-2 text-red-900">KEVIN MONAY </div>
@@ -126,7 +126,7 @@ multinational companies with a Swiss Federal Certificate of Competence .</p>
 <section>
 
   <div class="p-20 grid grid-cols-4 ">  
-    <div class="w-64 square overflow-hidden ">
+    <div class="w-64 square rounded-md overflow-hidden ">
       <img class="w-full" src="images/"/>
       <div class="px-6 py-4 bg-white">
         <div class="font-bold text-xl mb-2 ">PHANUEL ELI FIAMOR  </div>
@@ -139,7 +139,7 @@ expertise in the field of Credit risk administration and Banking operations.
       </div>
      
     </div>
-    <div class="w-64 square overflow-hidden  ">
+    <div class="w-64 square rounded-md overflow-hidden  ">
       <img class="w-full" src="images/mary.jpeg"/>
       <div class="px-6 py-4 bg-white">
         <div class="font-bold text-xl mb-2 text-red-900 ">MARYSE TAY  </div>
@@ -151,7 +151,7 @@ teams in acquiring, developing, mobilizing and rewarding a company’s workforce
         </p>
       </div>
     </div>
-    <div class="w-64 square overflow-hidden  ">
+    <div class="w-64 square rounded-md overflow-hidden  ">
       <img class="w-full" src="images/simon.jpeg"/>
       <div class="px-6 py-4 bg-white">
         <div class="font-bold text-xl mb-2 text-red-900">SIMEON NDAHIMANA  </div>
@@ -161,7 +161,7 @@ teams in acquiring, developing, mobilizing and rewarding a company’s workforce
         </p>
       </div>
     </div>
-    <div class="w-64 square overflow-hidden ">
+    <div class="w-64 square rounded-md overflow-hidden ">
       <img class="w-full" src="images/gloria.jpeg"/>
       <div class="px-6 py-4 bg-white">
         <div class="font-bold text-xl mb-2 text-red-900 ">GLORIA AGYARE </div>

@@ -56,7 +56,7 @@ const Partner =()=>{
             <h1 class="text-bold text-red-900 4xl text-center h-20">SOME OF THE INTERNATIONAL COUNTERPARTS</h1>
             <section>
 
-<div class="p-24 grid grid-cols-4">  
+<div class="p-24 grid grid-cols-4 md:max-xl:flex flex-row">  
   <div class="w-30 square overflow-hidden ">
     <img class="w-10" src="images/OCP1.png"/>
     <div class="px-6 py-4 bg-white">
@@ -99,7 +99,7 @@ const Partner =()=>{
                       <div class="">
             <h1 class="text-bold text-red-900 4xl text-center  bottom-8 h-20">SOME OF THE FINANCIAL COUNTERPARTS</h1>
 
-<div class="max-w-md mx-auto w-full flex p-6 bg-white  ">
+<div class="max-w-md mx-auto w-full flex p-6 bg-white   ">
 <div class="h-10 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden ">
     <img className="w-20" src="images/BIDIC.jpeg"/>
   </div>
