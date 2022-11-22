@@ -30,11 +30,55 @@ const Consultants =()=>{
 
      const team = [
          {
-             image: "",
-             name: "",
-             position: "",
-             description: "",
-         }
+             image: "Njack.jpg",
+             name: "GIANNI SARGENTI",
+             position: " CFO & Administrator",
+             description: "        Senior Banking Executive in Commodity Trade Finance (CTF) with more than  thirty-year experience in Swiss, international and multicultural banking "
+             
+         },
+
+         {
+          image: "KEVIN MONAY",
+          name: "GIANNI SARGENTI",
+          position: "CTO & Administrator",
+          description: "   For nearly 25 years, as an engineer, consultant and then IS manager for multinational companies with a Swiss Federal Certificate of Competence ."
+          
+        },
+
+        {
+          image: "Njack.jpg",
+          name: "PHANUEL ELI FIAMOR  ",
+          position: "   General Manager",
+          description: "         With about sixteen (16) years’ experience in the Banking sector with related expertise in the field of Credit risk administration and Banking operations."
+      },
+
+      {
+       image: "MARYSE TAY ",
+       name: "GIANNI SARGENTI",
+       position: "    Executive Assistant",
+       description: "  Has served in several key Admin and HR roles responsible for leading teams in acquiring, developing, mobilizing and rewarding a company’s workforce  with over 7 years.."
+       
+     },
+
+     {
+      image: "simon.jpeg ",
+      name: "SIMEON NDAHIMANA",
+      position: "     Project Manager",
+      description: "         current Project Manager for the rice project. He pursued his passion for  Civil Engineering acquired at a young age and now holds a First-Class B.Sc."
+      
+    },
+    {
+      image: "gloria.jpeg" ,
+      name: "GLORIA AGYARE",
+      position: "  Intern   ",
+      description: "                 Environmentalist and aspiring food technologist with experience in youth  education and engagement, as well as cross-sectorial community-based projectmanagement."
+      
+    }
+
+
+
+
+         
      ]
     return(
         <>
