@@ -124,36 +124,7 @@ necessary to proceed.
     </div>
 </section>
 <section className="">
-           {/* <div className="flex justify-between bg-gray-50 p-24 gap-14">
-           <img class="w-[400px]  h-96 right- "src="images/Group 32.png"/>
-           <p className="leading-loose">
-           <h1 class="font-bold text-2xl text-green-500">Values</h1><br></br>
-            <h2 className="font-bold">The company upholds the following
-values as a guideline to its operation.
-and business transactions:</h2><br></br>
-<span className="font-bold">1.Commitment:</span> We display traits of sincerity
-focused on staying true to a course of action.<br></br>
-< span className="font-bold">2.Integrity:</span> Acting ethically is a priority for
- everyone representing the company, this shapes
-our behavior as a whole.<br></br>
-<span className="font-bold">3.Customer Appreciation:</span> We exhibit a joy not
- just for the work but also the people around
-us to foster boldness, innovativeness, and by
- creating a great customer experience with
-staying true to the words we speak and the 
-bonds we make.<br></br>
-<span className="font-bold">4.Teamwork:</span> We pride ourselves as a people
- centered organization hence we encourage
-working together to deliver superior services
- to our clients.<br></br>
-<span className="font-bold">5.Professionalism:</span> We exhibit professionalism
- through reliability, consistency and honesty
-whilst holding ourselves accountable for our 
-actions.<br></br>
-<span className="font-bold">6.Accountability:</span> We accept responsibility 
-for our actions and inactions, it defines our
-ultimate way to build trust.</p>
-</div> */}
+
 <div class="bg-gray-50">
 <div class="w-94 bg-gray-50 overflow-hidden md:max-w-2xl justify-center">
   <div class="md:flex">
