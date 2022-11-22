@@ -32,58 +32,52 @@ const Consultants =()=>{
          {
              image: "Njack.jpg",
              name: "GIANNI SARGENTI",
-             position: " CFO & Administrator",
-             description: "        Senior Banking Executive in Commodity Trade Finance (CTF) with more than  thirty-year experience in Swiss, international and multicultural banking "
+             position: "CFO & Administrator",
+             description: "Senior Banking Executive in Commodity Trade Finance (CTF) with more than  thirty-year experience in Swiss, international and multicultural banking "
              
          },
 
          {
-          image: "KEVIN MONAY",
+          image: "Njack.jpg",
           name: "GIANNI SARGENTI",
           position: "CTO & Administrator",
-          description: "   For nearly 25 years, as an engineer, consultant and then IS manager for multinational companies with a Swiss Federal Certificate of Competence ."
-          
-        },
+          description: "For nearly 25 years, as an engineer, consultant and then IS manager for multinational companies with a Swiss Federal Certificate of Competence ."
 
-        {
+        },
+         {
           image: "Njack.jpg",
           name: "PHANUEL ELI FIAMOR  ",
-          position: "   General Manager",
-          description: "         With about sixteen (16) years’ experience in the Banking sector with related expertise in the field of Credit risk administration and Banking operations."
-      },
+          position: "General Manager",
+          description: "With about sixteen (16) years’ experience in the Banking sector with related expertise in the field of Credit risk administration and Banking operations."
+          },
 
-      {
-       image: "MARYSE TAY ",
-       name: "GIANNI SARGENTI",
-       position: "    Executive Assistant",
-       description: "  Has served in several key Admin and HR roles responsible for leading teams in acquiring, developing, mobilizing and rewarding a company’s workforce  with over 7 years.."
-       
-     },
+          {
+           image: "Njack.jpg ",
+           name: "GIANNI SARGENTI",
+           position: "Executive Assistant",
+           description: "Has served in several key Admin and HR roles responsible for leading teams in acquiring, developing, mobilizing and rewarding a company’s workforce  with over 7 years.."
 
-     {
-      image: "simon.jpeg ",
-      name: "SIMEON NDAHIMANA",
-      position: "     Project Manager",
-      description: "         current Project Manager for the rice project. He pursued his passion for  Civil Engineering acquired at a young age and now holds a First-Class B.Sc."
-      
-    },
-    {
-      image: "gloria.jpeg" ,
-      name: "GLORIA AGYARE",
-      position: "  Intern   ",
-      description: "                 Environmentalist and aspiring food technologist with experience in youth  education and engagement, as well as cross-sectorial community-based projectmanagement."
-      
-    }
+         },
 
+         {
+          image: "simon.jpeg",
+          name: "SIMEON NDAHIMANA",
+          position: "Project Manager",
+          description: "current Project Manager for the rice project. He pursued his passion for  Civil Engineering acquired at a young age and now holds a First-Class B.Sc."
 
+        },
+        {
+          image: "gloria.jpeg" ,
+          name: "GLORIA AGYARE",
+          position: "Intern",
+          description: "Environmentalist and aspiring food technologist with experience in youth  education and engagement, as well as cross-sectorial community-based projectmanagement."
 
+        }
+    ];
 
-         
-     ]
     return(
         <>
             <section className="" id="Consultant">
-
                 <div style={{
                     background: "url(images/backgrounds/consultants.jpg)",
                     backgroundSize: "cover",
@@ -124,110 +118,29 @@ const Consultants =()=>{
                         </div>
                     </div>
                 </div>
-{/*<section>*/}
 
-  <div class="p-24 grid grid-cols-3">
+                <div className={'p-8 w-[70vw] m-auto'}>
+                    <div className={'my-8'}>
+                        <h5 className="mb-1 text-3xl font-medium text-black mb-3">Our Team</h5>
+                    </div>
+                    <div className={'grid grid-cols-4 gap-5 m-auto'}>
+                        {
+                            team.map((member, index) => (
+                                <div key={index} className={'flex flex-col items-center justify-start gap-3 bg-white p-5 rounded-xl shadow-sm hover:shadow-lg'}>
+                                    <img src={`images/${member.image}`} className={'object-cover h-[180px] w-[180px] rounded-lg'} alt={''}/>
+                                    <div className={''}>
+                                        <h2 className={'font-bold'}>{member.name}</h2>
+                                        <p className={'text-sm text-gray-400 mb-2'}>{member.position}</p>
 
-
-  <div class="w-64 square rounded-md overflow-hidden">
-      <img class="w-full h-64" src="images/Njack.jpg"/>
-      <div class="px-6 py-4 bg-white">
-        <div class="font-bold text-xl mb-2 text-red-900">GIANNI SARGENTI  </div>
-        CFO & Administrator
-        <p class="text-red-900 text-base">
-        Senior Banking Executive in Commodity Trade Finance (CTF) with more than  thirty-year experience in Swiss, international and multicultural banking .
-
-
-        </p>
-      </div>
-
-    </div>
-    <div class="w-64 square rounded-md overflow-hidden  ">
-      <img class="w-full" src="images/GIANNI.jpeg"/>
-      <div class="px-6 py-4 bg-white">
-        <div class="font-bold text-xl mb-2 text-red-900">GIANNI SARGENTI  </div>
-        CFO & Administrator
-        <p class="text-red-900 text-base">
-        Senior Banking Executive in Commodity Trade Finance (CTF) with more than  thirty-year experience in Swiss, international and multicultural banking .
-
-
-        </p>
-      </div>
-
-    </div>
-
-    <div class="w-64 square rounded-md overflow-hidden  ">
-      <img class="w-full" src="images/monay.jpeg"/>
-      <div class="px-6 py-4 bg-white">
-        <div class="font-bold text-xl mb-2 text-red-900">KEVIN MONAY </div>
-        CTO & Administrator
-        <p class="text-red-900 text-base">
-        For nearly 25 years, as an engineer, consultant and then IS manager for
-multinational companies with a Swiss Federal Certificate of Competence .</p>
-      </div>
-
-    </div>
-
-  </div>
+                                        <p>{member.description}</p>
+                                    </div>
+                                </div>
+                            ))
+                        }
+                    </div>
+                </div>
 
 </section>
-
-<section>
-
-  <div class="p-20 grid grid-cols-4 ">
-    <div class="w-64 square rounded-md overflow-hidden ">
-      <img class="w-full" src="images/"/>
-      <div class="px-6 py-4 bg-white">
-        <div class="font-bold text-xl mb-2 ">PHANUEL ELI FIAMOR  </div>
-        General Manager
-        <p class="text-red-900 text-base">
-        With about sixteen (16) years’ experience in the Banking sector with related
-expertise in the field of Credit risk administration and Banking operations.
-
-        </p>
-      </div>
-
-    </div>
-    <div class="w-64 square rounded-md overflow-hidden  ">
-      <img class="w-full" src="images/mary.jpeg"/>
-      <div class="px-6 py-4 bg-white">
-        <div class="font-bold text-xl mb-2 text-red-900 ">MARYSE TAY  </div>
-        Executive Assistant
-
-        <p class="text-red-900 text-base">
-        Has served in several key Admin and HR roles responsible for leading
-teams in acquiring, developing, mobilizing and rewarding a company’s workforce  with over 7 years.
-        </p>
-      </div>
-    </div>
-    <div class="w-64 square rounded-md overflow-hidden  ">
-      <img class="w-full" src="images/simon.jpeg"/>
-      <div class="px-6 py-4 bg-white">
-        <div class="font-bold text-xl mb-2 text-red-900">SIMEON NDAHIMANA  </div>
-        Project Manager
-        <p class="text-red-900 text-base">
-        current Project Manager for the rice project. He pursued his passion for  Civil Engineering acquired at a young age and now holds a First-Class B.Sc.
-        </p>
-      </div>
-    </div>
-    <div class="w-64 square rounded-md overflow-hidden ">
-      <img class="w-full" src="images/gloria.jpeg"/>
-      <div class="px-6 py-4 bg-white">
-        <div class="font-bold text-xl mb-2 text-red-900 ">GLORIA AGYARE </div>
-        Intern
-        <p class="text-red-900 text-base">
-        Environmentalist and aspiring food technologist with experience in youth  education and engagement, as well as cross-sectorial community-based project
-management.
-        </p>
-      </div>
-    </div>
-  </div>
-
-{/*</section>*/}
-
-</section>
-
-
  
       </> 
        

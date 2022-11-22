@@ -91,7 +91,7 @@ Activities
     </table>
 </div>
 </div>
-<footer class="text-center bg-red-900 text-white">
+<footer class="text-center bg-green-600 text-white">
   <div class="container px-6 pt-6">
     <div class="grid lg:grid-cols-2 md:grid-cols-2">
       <div class="mb-6">
