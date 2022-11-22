@@ -4,7 +4,7 @@ import React from "react";
 const Navbar =()=>{
     return(
         <>
-           <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-red-800 mb-3">
+           <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-white ">
   <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
     <div class="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
     <img class="h-12 inline-block"src="images/Logo.png" />
@@ -17,32 +17,32 @@ const Navbar =()=>{
     <div class="lg:flex flex-grow items-center" id="example-navbar-warning">
       <ul class="flex flex-col lg:flex-row list-none ml-auto">
           <li class="nav-item">
-            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="Home">
+            <a class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 hover:text-green-800" href="Home">
               Home
             </a>
           </li>
           <li class="nav-item">
-            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#About">
+            <a class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 hover:text-green-800" href="#About">
               About
             </a>
           </li>
           <li class="nav-item">
-            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#Project">
+            <a class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 hover:text-green-800" href="#Project">
               Projects
             </a>
           </li>
           <li class="nav-item">
-            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#Consultant">
+            <a class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 hover:text-green-800" href="#Consultant">
               Consultants
             </a>
           </li>
           <li class="nav-item">
-            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#Partner">
+            <a class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 hover:text-green-800" href="#Partner">
               Partnership
             </a>
           </li>
           <li class="nav-item">
-            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#Contact">
+            <a class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 hover:text-green-800" href="#Contact">
               Contact
             </a>
           </li>
