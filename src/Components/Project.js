@@ -22,7 +22,7 @@ const Project = () => {
     return (
         <>
             <section className={'min-h-[80vh] flex flex-col items-center justify-center py-12'} id={'Project'}>
-                <div className={'w-[70vw]'}>
+                <div className={'xl:w-[70vw] p-8'}>
                     <h5 className="mb-1 text-3xl font-medium text-black">Flagship Projects</h5>
                     <p className={'text-gray-400 text-sm mb-8'}>INTERVALLE RICE FLAGSHIP PROJECT </p>
 

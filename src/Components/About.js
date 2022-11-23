@@ -93,7 +93,7 @@ const About =()=>{
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat"
             }} className="flex items-center justify-center p-24 bg-cover bg-no-repeat">
-                <div className={'p-8 bg-black/40 text-white md:w-2/3 lg:w-1/2'}>
+                <div className={'p-8 bg-black/40 text-white xl:w-[70vw]'}>
                     <h5 className="mb-1 text-3xl font-medium mb-3">About</h5>
                     <p>
                         Consulting & Agricultural Value Chain Company, registered
@@ -130,11 +130,8 @@ const About =()=>{
 <div className="bg-white h-5"></div>
 
 <section>
-    <div className="text-align: center">
-   
-    </div>
     <div className="flex items-center justify-center gap-8 min-h-[80vh] w-full">
-        <div className="w-[70vw] grid items-start justify-center grid-cols-[1fr_0.8fr_0.8fr] gap-8">
+        <div className="xl:w-[70vw] lg:w-[90vw] grid items-start justify-center grid-cols-[1fr_0.8fr_0.8fr] gap-8">
             {
                 data.map((item, index) => (
                     <div className={`w-full max-w-sm bg-white straight-lg ${index === 0 ? 'text-white p-5 px-8 bg-green-600' : ''}`}>
@@ -150,9 +147,9 @@ const About =()=>{
 </section>
 <section className="">
 
-<div className="flex items-center justify-center gap-8 bg-gray-50 py-12">
-    <img className="w-1/3 object-cover" src="/images/Group 32.png" alt={''}/>
-    <div className={'p-8 w-1/2'}>
+<div className="flex flex-col xl:flex-row items-center justify-center gap-8 bg-gray-50 py-12">
+    <img className="xl:w-1/3 lg:w-1/2 object-cover" src="/images/Group 32.png" alt={''}/>
+    <div className={'p-8 xl:w-1/2 lg:w-[80vw]'}>
         <div className="font-bold tracking-wide text-3xl mb-2">
             <h2>Values</h2>
         </div>

@@ -5,18 +5,20 @@ const Home =()=>{
         <>
             <section className="" id="Home">
                 <div className="">
-                    <div className="relative md:text-base  mx-auto w-full">
-                        <img src="images/IMAGE.jpg" />
-                        <h2 className="absolute text-3xl text-white bottom-20 left-60 -translate-x-1/2  max-md: flex-justify">
-                            <div className="text-white bg-lime-600 p-3 ">THE GOOD GROWTH PLAN</div>
-                        </h2>
-                        <h3 className="absolute text-8xl text-white bottom-40 left-5 ">
+                    <div style={{
+                        background: "url(images/IMAGE.jpg)"
+                    }} className="flex flex-col items-start justify-center md:text-base h-[90vh] mx-auto w-full p-8">
+
+                        <h3 className="xl:text-8xl text-6xl text-white mb-8 max-w-[80vw]">
                             Establish Bankable and Sustainable Full Value Chain Projects
                         </h3>
+                        <h2 className="xl:text-3xl text-2xl text-white max-md: flex-justify">
+                            <div className="text-white bg-green-600 p-3 ">THE GOOD GROWTH PLAN</div>
+                        </h2>
                     </div>
 
                     <div className="flex items-center justify-center w-full mx-auto bg-white straight-lg min-h-[50vh]">
-                        <div className="flex flex-col items-start p-5 md:w-2/3 lg:w-1/2">
+                        <div className="flex flex-col items-start p-5 lg:w-[80vw] xl:w-[70vw]">
                             <h5 className="mb-1 text-3xl font-medium text-black mb-3">Overview</h5>
                             <p className="text-md text-black">
                                 Intervalle Genève SA incorporated in Geneva in 1984 taken over in 2014.
