@@ -162,7 +162,7 @@ const About =()=>{
                 values.map((item, index) => (
                     <div key={index} className={'flex gap-3 items-start justify-start my-5'}>
                         <div className={'flex items-center justify-center p-[5px] rounded-full bg-green-600/30'}>
-                            <GoCheck size={18} className={'text-white font-bold '}/>
+                            <GoCheck size={18} className={'text-green-600 font-bold '}/>
                         </div>
                         <div>
                             <h5 className="text-xl font-medium mb-2">{item.title}</h5>

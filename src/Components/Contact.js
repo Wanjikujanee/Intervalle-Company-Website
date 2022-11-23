@@ -4,10 +4,8 @@ const Contact =()=>{
     return(
         <>
         <section className="" id="Contact">
-            <h1 class="text-red-900 text-4xl font-bold h-20 text-center">Contact</h1>
 
 <div>
-    <h1 class="text-black text-md h-20 text-center">GENERAL INFORMATION</h1>
           <div class="overflow-x-auto relative">
     <table class="w-full text-sm text-center text-gray-500 dark:text-gray-400 gap-8">
         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">

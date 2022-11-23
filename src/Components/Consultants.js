@@ -121,16 +121,16 @@ const Consultants =()=>{
 
                 <div className={'p-8 w-[70vw] m-auto'}>
                     <div className={'my-8'}>
-                        <h5 className="mb-1 text-3xl font-medium text-black mb-3">Our Team</h5>
+                        <h5 className="mb-1 text-3xl font-bold text-black mb-3">Our Team</h5>
                     </div>
-                    <div className={'grid grid-cols-4 gap-5 m-auto'}>
+                    <div className={'grid grid-cols-3 gap-5 m-auto'}>
                         {
                             team.map((member, index) => (
-                                <div key={index} className={'flex flex-col items-center justify-start gap-3 bg-white p-5 rounded-xl shadow-sm hover:shadow-lg'}>
-                                    <img src={`images/${member.image}`} className={'object-cover h-[180px] w-[180px] rounded-lg'} alt={''}/>
-                                    <div className={''}>
+                                <div key={index} className={'group relative flex flex-col items-center justify-start gap-3 border-b-8 border-green-600 bg-white rounded-xl overflow-clip shadow-sm hover:shadow-lg'}>
+                                    <img src={`images/${member.image}`} className={'object-cover h-[460px] w-full rounded-lg'} alt={''}/>
+                                    <div className={'absolute bottom-[-200px] transition-[all_0.8s] group-hover:bottom-0 rounded-lg bg-green-800/60 h-auto p-5 text-white'}>
                                         <h2 className={'font-bold'}>{member.name}</h2>
-                                        <p className={'text-sm text-gray-400 mb-2'}>{member.position}</p>
+                                        <p className={'text-sm text-gray-200 mb-2'}>{member.position}</p>
 
                                         <p>{member.description}</p>
                                     </div>
