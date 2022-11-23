@@ -22,7 +22,7 @@ const Consultants =()=>{
          },
          {
              image: "megan.jpeg",
-             name: "MEGAN DEVINDER",
+             name: "MEHAN DEVINDER",
              position: "International Agri-business Expert",
              description: "An International Agri-business Expert, reliable, highly organized, detail orientated and blessed with an innate ability to read"
          }
