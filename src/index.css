@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    transition: all 0.5s;
+
+#home-rapper{
+    background-image: url(/public/images/IMAGE.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
