@@ -15,7 +15,7 @@ const Home =()=>{
                         </div>
 
                        
-                    </div>
+                     </div>
 
                     <div className="flex items-center justify-center w-full mx-auto bg-white lg:flex-col min-h-[50vh]">
                         <div className="flex flex-col items-start p-5 md:w-2/3 lg:w-1/2">
