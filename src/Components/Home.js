@@ -6,12 +6,11 @@ const Home =()=>{
             <section className="w-full h-full" id="Home">
               
                     <div className="relative flex flex-col items-center justify-center w-full h-screen " id="home-rapper">
-                        {/* <img className="home-img w-full h-full" src="images/IMAGE.jpg" /> */}
                         <div className="bottom-0 w-full px-2 text-xl lg:text-3xl text-white ">
                         <h3 className=" text-xl lg:text-8xl text-white  ">
                             Establish Bankable and Sustainable Full Value Chain Projects
                         </h3>
-                            <h2 className="text-white bg-lime-600 p-3  w-fit">THE GOOD GROWTH PLAN</h2>
+                            <h2 className="text-white bg-red-400 p-3  w-fit">THE GOOD GROWTH PLAN</h2>
                         </div>
 
                        

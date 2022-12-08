@@ -62,12 +62,12 @@ import {GoCheck} from "react-icons/go";
                             <div className={'p-8 bg-black/40 text-white md:w-2/3 lg:w-1/2 '}>
                                 <h5 className=" text-xl  lg:text-3xl font-medium mb-3">About</h5>
                                 <p>
-                                    Consulting & Agricultural Value Chain Company, registered
+                                    * Consulting & Agricultural Value Chain Company, registered
                                     in Geneva in 1984, Intervalle Genève SA is active in the
                                     structuring of soft commodities value chain programs and
                                     is the promoter of “West African Rice Corridor Project” and
                                     related full value chain food programs within the sub region.
-                                    Our approach is to establish bankable and sustainable full
+                                    * Our approach is to establish bankable and sustainable full
                                     value chain projects through Private Public Partnerships.
 
                                     Intervalle has a vision to revolutionize the rice sector in West
@@ -103,7 +103,7 @@ import {GoCheck} from "react-icons/go";
                     <div className="w-[70vw] grid items-start justify-center md:grid-cols-[1fr_0.8fr_0.8fr] gap-8">
                         {
                             data.map((item, index) => (
-                                <div key={index} className={`w-full  bg-white  ${index === 0 ? 'text-white p-5 px-8 bg-green-600' : ''}`}>
+                                <div key={index} className={`w-full  bg-white  ${index === 0 ? 'text-white p-5 px-8 bg-red-400' : ''}`}>
                                     <div className="flex flex-col items-start pt-4 pb-10">
                                         <h5 className=" text-3xl font-medium mb-3">{item.title}</h5>
                                         <p>{item.description}</p>
@@ -122,13 +122,13 @@ import {GoCheck} from "react-icons/go";
                     <div className="font-bold tracking-wide text-3xl mb-2">
                         <h2>Values</h2>
                     </div>
-                    <p className="mb-8 ">The company upholds the following values as a guideline to its operation. and business transactions:</p>
+                    <p className="mb-8 ">The company upholds the following values as a guideline to its operation and business transactions:</p>
                     <div className={'grid grid-cols-2 gap-5'}>
                         {
                             values.map((item, index) => (
                                 <div key={index} className={'flex gap-3 items-start justify-start my-5'}>
-                                    <div className={'flex items-center justify-center p-[5px] rounded-full bg-green-600/30'}>
-                                        <GoCheck size={18} className={'text-white font-bold '}/>
+                                    <div className={'flex items-center justify-center p-[5px] rounded-full bg-red-400'}>
+                                        <GoCheck size={18 } className={'text-white font-bold  animate-bounce '}/>
                                     </div>
                                     <div>
                                         <h5 className="text-xl font-medium mb-2">{item.title}</h5>

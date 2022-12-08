@@ -17,35 +17,37 @@ const Navbar =()=>{
                 <div className=" hidden md:flex flex-grow items-center" id="example-navbar-warning">
                   <ul className="flex flex-col lg:flex-row list-none ml-auto">
                       <li className="nav-item">
-                        <a className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 hover:text-green-800" href="Home">
+                        <a className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 hover:text-red-600" href="Home">
                           Home
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 hover:text-green-800" href="#About">
+                        <a className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 hover:text-red-600" href="#About">
                           About
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 hover:text-green-800" href="#Project">
+                        <a className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 hover:text-red-600" href="#Project">
                           Projects
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 hover:text-green-800" href="#Consultant">
+                        <a className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 hover:text-red-600" href="#Consultant">
                           Consultants
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 hover:text-green-800" href="#Partner">
+                        <a className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 hover:text-red-600" href="#Partner">
                           Partnership
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 hover:text-green-800" href="#Contact">
+                        <a className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-800 hover:text-red-600" href="#Contact">
                           Contact
                         </a>
                       </li>
+                      <button type="button" class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium bg-white rounded-lg border hover:bg-red-600 hover:text-white    dark:bg-red-400  ">Search</button>
+
                   </ul>
                 </div>
               </div>

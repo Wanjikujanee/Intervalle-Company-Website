@@ -4,10 +4,8 @@ import React from "react";
                         return(
                             <>
                             <section className="" id="Contact">
-                                <h1 className="text-red-900 text-4xl font-bold h-20 text-center">Contact</h1>
 
                     <div>
-                        <h1 className="text-black text-md h-20 text-center">GENERAL INFORMATION</h1>
                               <div className="overflow-x-auto relative">
                         <table className="w-full text-sm text-center text-gray-500 dark:text-gray-400 gap-8">
                             <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -91,7 +89,7 @@ import React from "react";
                         </table>
                     </div>
                     </div>
-                    <footer className="text-center bg-red-900 text-white">
+                    <footer className="text-center bg-red-600 text-white">
                       <div className="container px-6 pt-6">
                         <div className="grid lg:grid-cols-2 md:grid-cols-2">
                           <div className="mb-6">
@@ -99,6 +97,8 @@ import React from "react";
                             <ul className="list-none mb-0">
                               <li>
                                 <a href="#!" className="text-white">+41 22 552 1112</a>
+                                <a href="#!" className="text-white">+41 22 552 1112</a>
+
                               </li>
                             </ul>
                           </div>

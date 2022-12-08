@@ -119,10 +119,10 @@ import React from "react";
                                                 {
                                                     consultants.map((consultant, index) => (
                                                         <div key={index} className={'flex items-center justify-start gap-3 bg-white p-5 rounded-xl shadow:lg hover:shadow-xl'}>
-                                                            <img src={`images/${consultant.image}`} className={'object-cover h-[90px] w-[90px] rounded-lg'} alt={''}/>
+                                                            <img src={`images/${consultant.image}`} className={'object-cover h-[90px] w-[80px] rounded-lg'} alt={''}/>
                                                             <div className={''}>
                                                                 <h2 className={'font-bold'}>{consultant.name}</h2>
-                                                                <p className={'text-sm text-gray-400 mb-2'}>{consultant.position}</p>
+                                                                <p className={'text-sm text-red-600 mb-2'}>{consultant.position}</p>
 
                                                                 {/*<p>{consultant.description}</p>*/}
                                                             </div>
@@ -135,99 +135,105 @@ import React from "react";
                                 </div>
                 {/*<section>*/}
 
-                  <div className="p-24 grid grid-cols-3">
+                <div className="p-10 grid grid-cols-4">
 
 
-                  <div className="w-64 square rounded-md overflow-hidden">
+                  <div className="w-64 square rounded-md overflow-hidden drop-shadow-md shadow-lg shadow-red-400 ">
                       <img className="w-full h-64" src="images/Njack.jpg"/>
                       <div className="px-6 py-4 bg-white">
-                        <div className="font-bold text-xl mb-2 text-red-900">GIANNI SARGENTI  </div>
-                        CFO & Administrator
-                        <p className="text-red-900 text-base">
+                        <div className="font-bold text-xl mb-2 ">GIANNI SARGENTI  </div>
+                        <h3 className="text-red-600" >CFO & Administrator</h3>
+                        {/* <p className="text-red-900 text-base">
                         Senior Banking Executive in Commodity Trade Finance (CTF) with more than  thirty-year experience in Swiss, international and multicultural banking .
 
 
-                        </p>
+                        </p> */}
                       </div>
 
                     </div>
-                    <div className="w-64 square rounded-md overflow-hidden  ">
+                    <div className="w-64 square rounded-md overflow-hidden drop-shadow-md shadow-lg shadow-red-400 ">
                       <img className="w-full" src="images/GIANNI.jpeg"/>
                       <div className="px-6 py-4 bg-white">
-                        <div className="font-bold text-xl mb-2 text-red-900">GIANNI SARGENTI  </div>
-                        CFO & Administrator
-                        <p className="text-red-900 text-base">
+                        <div className="font-bold text-xl mb-2 ">GIANNI SARGENTI  </div>
+                        <h3 className="text-red-600" >CFO & Administrator</h3>
+                        {/* <p className="text-red-900 text-base">
                         Senior Banking Executive in Commodity Trade Finance (CTF) with more than  thirty-year experience in Swiss, international and multicultural banking .
 
 
-                        </p>
+                        </p> */}
                       </div>
 
                     </div>
 
-                    <div className="w-64 square rounded-md overflow-hidden  ">
+                    <div className="w-64 square rounded-md overflow-hidden drop-shadow-md shadow-lg shadow-red-400 ">
                       <img className="w-full" src="images/monay.jpeg"/>
                       <div className="px-6 py-4 bg-white">
-                        <div className="font-bold text-xl mb-2 text-red-900">KEVIN MONAY </div>
-                        CTO & Administrator
-                        <p className="text-red-900 text-base">
+                        <div className="font-bold text-xl mb-2 ">KEVIN MONAY </div>
+                        <h3 className="text-red-600" >CTO & Administrator</h3>
+                        {/* <p className="text-red-900 text-base">
                         For nearly 25 years, as an engineer, consultant and then IS manager for
-                multinational companies with a Swiss Federal Certificate of Competence .</p>
+                multinational companies with a Swiss Federal Certificate of Competence .</p> */}
                       </div>
 
                     </div>
+
+                    <div className="w-64 square rounded-md overflow-hidden drop-shadow-md shadow-lg shadow-red-400 ">
+                      <img className="w-full" src="images/simon.jpeg"/>
+                      <div className="px-6 py-4 bg-white">
+                        <div className="font-bold text-lg mb-2 ">SIMEON NDAHIMANA  </div>
+                        <h3 className="text-red-600" >Project Manager</h3>
+                        {/* <p className="text-red-900 text-base">
+                        current Project Manager for the rice project. He pursued his passion for  Civil Engineering acquired at a young age and now holds a First-className B.Sc.
+                        </p> */}
+                      </div>
+                    </div>
+
+               
 
                   </div>
 
                 </section>
 
+              
+
                 <section>
 
-                  <div className="p-20 grid grid-cols-4 ">
-                    <div className="w-64 square rounded-md overflow-hidden ">
-                      <img className="w-full" src="images/"/>
+                  <div className="p-24  flex justify-center justify-evenly ">
+                    <div className="w-64 square rounded-md overflow-hidden drop-shadow-md shadow-lg shadow-red-400">
+                      <img className="w-full" src="images/gloria.jpeg"/>
                       <div className="px-6 py-4 bg-white">
-                        <div className="font-bold text-xl mb-2 ">PHANUEL ELI FIAMOR  </div>
-                        General Manager
-                        <p className="text-red-900 text-base">
+                        <div className="font-bold text-lg mb-2 ">PHANUEL ELI FIAMOR  </div>
+                      <h3 className="text-red-600" > General Manager</h3> 
+                        {/* <p className="text-red-900 text-base">
                         With about sixteen (16) years’ experience in the Banking sector with related
                 expertise in the field of Credit risk administration and Banking operations.
 
-                        </p>
+                        </p> */}
                       </div>
 
                     </div>
-                    <div className="w-64 square rounded-md overflow-hidden  ">
+                    <div className="w-64 square rounded-md overflow-hidden drop-shadow-md shadow-lg shadow-red-400 ">
                       <img className="w-full" src="images/mary.jpeg"/>
                       <div className="px-6 py-4 bg-white">
-                        <div className="font-bold text-xl mb-2 text-red-900 ">MARYSE TAY  </div>
-                        Executive Assistant
+                        <div className="font-bold text-xl mb-2 text-black">MARYSE TAY  </div>
+                        <h3 className="text-red-600" >Executive Assistant</h3>
 
-                        <p className="text-red-900 text-base">
+                        {/* <p className="text-red-900 text-base">
                         Has served in several key Admin and HR roles responsible for leading
                 teams in acquiring, developing, mobilizing and rewarding a company’s workforce  with over 7 years.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
-                    <div className="w-64 square rounded-md overflow-hidden  ">
-                      <img className="w-full" src="images/simon.jpeg"/>
-                      <div className="px-6 py-4 bg-white">
-                        <div className="font-bold text-xl mb-2 text-red-900">SIMEON NDAHIMANA  </div>
-                        Project Manager
-                        <p className="text-red-900 text-base">
-                        current Project Manager for the rice project. He pursued his passion for  Civil Engineering acquired at a young age and now holds a First-className B.Sc.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="w-64 square rounded-md overflow-hidden ">
+                 
+                    <div className="w-64 square rounded-md overflow-hidden drop-shadow-md shadow-lg shadow-red-400">
                       <img className="w-full" src="images/gloria.jpeg"/>
                       <div className="px-6 py-4 bg-white">
-                        <div className="font-bold text-xl mb-2 text-red-900 ">GLORIA AGYARE </div>
-                        Intern
-                        <p className="text-red-900 text-base">
+                        <div className="font-bold text-xl mb-2  ">GLORIA AGYARE </div>
+                        <h3 className="text-red-600" >Intern</h3>
+                        {/* <p className="text-red-900 text-base">
                         Environmentalist and aspiring food technologist with experience in youth  education and engagement, as well as cross-sectorial community-based project
                 management.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
