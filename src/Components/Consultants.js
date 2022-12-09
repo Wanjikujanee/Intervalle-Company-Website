@@ -223,6 +223,7 @@ import React from "react";
                 teams in acquiring, developing, mobilizing and rewarding a company’s workforce  with over 7 years.
                         </p> */}
                       </div>
+                      {/* className */}
                     </div>
                  
                     <div className="w-64 square rounded-md overflow-hidden drop-shadow-md shadow-lg shadow-red-400">
