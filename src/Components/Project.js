@@ -106,7 +106,7 @@ import React from "react";
         
 
         
-        <div className="container mx-auto top-4">
+        {/* <div className="container mx-auto top-4">
         <div className=' h-30 w-full p-16'>
             <h1 className="mb-2 text-2xl font-bold text-left text-black">Activities</h1>
             <p className="text- text-left text-black leading-8"> 1.Intervalle is the promoter of the agricultural value chain projects, responsible for          the design and
@@ -123,9 +123,9 @@ import React from "react";
         Irrigation Infrastructure.<br></br>
      8.Seed production, foundation & certified seeds support Trade facilitation.</p>
         </div>
-        </div>
+        </div> */}
 
-        <div className="mx-4 bg-white w-94 ">
+        {/* <div className="mx-4 bg-white w-94 ">
         <div className="p-20 border-black border-4 rounded-lg">
             <h2 className="mb-2 text-xl font-bold text-center text-black lg:text-2xl">GUIDING PRINCIPLES</h2>
             <p classname="text-md text-black"> <h1 className="font-bold">The five guiding principles driving the Intervalle PPP programme are:</h1><br></br>
@@ -138,7 +138,7 @@ import React from "react";
     5. Holistic promotion on best practices on land governance and integrating full 
         value chains that benefit all actors in the Food & Agriculture sector.</p>
         </div>
-    </div>
+    </div> */}
         </section>
 
         </>

@@ -89,7 +89,7 @@ import React from "react";
                         </table>
                     </div>
                     </div>
-                    <footer className="text-center bg-red-600 text-white">
+                    <footer className="text-center bg-red-800 text-white">
                       <div className="container px-6 pt-6">
                         <div className="grid lg:grid-cols-2 md:grid-cols-2">
                           <div className="mb-6">

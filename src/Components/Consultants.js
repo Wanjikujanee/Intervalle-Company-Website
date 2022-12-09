@@ -200,10 +200,10 @@ import React from "react";
 
                   <div className="p-24  flex justify-center justify-evenly ">
                     <div className="w-64 square rounded-md overflow-hidden drop-shadow-md shadow-lg shadow-red-400">
-                      <img className="w-full" src="images/gloria.jpeg"/>
+                      <img className="w-full" src="images/jimmy.jpeg"/>
                       <div className="px-6 py-4 bg-white">
-                        <div className="font-bold text-lg mb-2 ">PHANUEL ELI FIAMOR  </div>
-                      <h3 className="text-red-600" > General Manager</h3> 
+                        <div className="font-bold text-lg mb-2 ">Jimmy Verdeil </div>
+                      <h3 className="text-red-600" > Senior Trader</h3> 
                         {/* <p className="text-red-900 text-base">
                         With about sixteen (16) years’ experience in the Banking sector with related
                 expertise in the field of Credit risk administration and Banking operations.
