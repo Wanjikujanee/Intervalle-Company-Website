@@ -62,7 +62,7 @@ import {GoCheck} from "react-icons/go";
                             <div className={'p-8 bg-black/40 text-white md:w-2/3 lg:w-1/2 '}>
                                 <h5 className=" text-xl  lg:text-3xl font-medium mb-3">About</h5>
                                 <p>
-                                    * Consulting & Agricultural Value Chain Company, registered
+                                    Consulting & Agricultural Value Chain Company, registered
                                     in Geneva in 1984, Intervalle Genève SA is active in the
                                     structuring of soft commodities value chain programs and
                                     is the promoter of “West African Rice Corridor Project” and
