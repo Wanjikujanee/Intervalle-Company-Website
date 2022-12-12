@@ -61,35 +61,32 @@ import {GoCheck} from "react-icons/go";
                         }} className="flex items-center justify-center p-24 bg-cover bg-no-repeat">
                             <div className={'p-8 bg-black/40 text-white md:w-2/3 lg:w-1/2 '}>
                                 <h5 className=" text-xl  lg:text-3xl font-medium mb-3">About</h5>
-     
-                                 
-<p class="mb-3  first-line:tracking-widest first-letter:text-7xl first-letter:font-bold  first-letter:mr-3 first-letter:float-left">   
-                                    Consulting & Agricultural Value Chain Company. Registered
+                                <p>
+                                    * Consulting & Agricultural Value Chain Company, registered
                                     in Geneva in 1984, Intervalle Genève SA is active in the
                                     structuring of soft commodities value chain programs and
                                     is the promoter of “West African Rice Corridor Project” and
                                     related full value chain food programs within the sub region.
-                                    Our approach is to establish bankable and sustainable full
-                                    value chain projects through Private Public Partnerships.</p>
+                                    * Our approach is to establish bankable and sustainable full
+                                    value chain projects through Private Public Partnerships.
 
-<p class="">                        Intervalle has a <u class="underline">vision</u>  to revolutionize the rice sector in West
+                                    Intervalle has a vision to revolutionize the rice sector in West
                                     Africa by leading the production of high-quality milled rice
-                                    through an integrated value chain approach.</p>
+                                    through an integrated value chain approach.
 
- <p class="">                       Intervalle is also working on other value chains <em class="font-italic">such as tomato
-                                    value chain and poultry value chain project.</em>
+                                    Intervalle is also working on other value chains such the tomato
+                                    value chain and poultry value chain project.
                                     Intervalle Genève S.A in July 2018, contracted with the Ministry
                                     of Food and Agriculture(MOFA) to co-execute the Rice Chapter
                                     of Planting for Food and Jobs in Ghana and lead the current
-                                    Public Private Partnership (PPP) Rice Project.</p>
-
- <p class="">                       Intervalle employs qualified and innovative individuals who have
+                                    Public Private Partnership (PPP) Rice Project.
+                                    Intervalle employs qualified and innovative individuals who have
                                     the necessary skills and experience to respond to today’s
-                                    challenging needs in the Agricultural sector. 'The focus of
+                                    challenging needs in the Agricultural sector. The focus of
                                     Intervalle is finding and providing tailor made solutions and
                                     exceeding client satisfaction, these are the attributes that
-                                    motivates the dedicated team at Intervalle'.</p>
-
+                                    motivates the dedicated team at Intervalle.
+                                </p>
                             </div>
 
                         </div>
