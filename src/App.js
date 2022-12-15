@@ -5,7 +5,9 @@ import About from './Components/About';
 import Project from './Components/Project';
 import Consultants from './Components/Consultants';         `                                                                                                                                                                                                   `
 import Partner from './Components/Partner';
-import Contact from './Components/Contact';  
+import Contact from './Components/Contact'; 
+
+
 
 
 function App() {

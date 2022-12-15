@@ -22,7 +22,7 @@ import React from "react";
         return (
             <>
                 <section className={'min-h-[80vh] flex flex-col items-center justify-center py-12'} id={'Project'}>
-                    <div className={'w-[70vw]'}>
+                    <div className={'w-[70vw] '}>
                         <h5 className="mb-1 text-3xl font-medium text-black">Flagship Projects</h5>
                         <p className={'text-gray-400 text-sm mb-8'}>INTERVALLE RICE FLAGSHIP PROJECT </p>
 
@@ -104,41 +104,6 @@ import React from "react";
         </div>
         </div>
         
-
-        
-        {/* <div className="container mx-auto top-4">
-        <div className=' h-30 w-full p-16'>
-            <h1 className="mb-2 text-2xl font-bold text-left text-black">Activities</h1>
-            <p className="text- text-left text-black leading-8"> 1.Intervalle is the promoter of the agricultural value chain projects, responsible for          the design and
-        overall regional development coordination.<br></br>
-     2.Develops relations with public sector and co-executes the program.<br></br>
-     3.Supports Governments of Ghana, Senegal, Burkina Faso, Liberia and Sierra Leone for funding
-        sources preparation to include feasibility studies and infrastructure realization.<br></br>
-     4.Supports the partners within the key private national and international sector actors of the value
-        chain.<br></br>
-     5.Support with the farmers organizations and civil societies.<br></br>
-     6.Submits the detailed technical and financial offers for private and public partners in line with
-        Government debt policy.<br></br>
-     7.Engages with Government to jointly secure the most adapted funding mechanism for the          
-        Irrigation Infrastructure.<br></br>
-     8.Seed production, foundation & certified seeds support Trade facilitation.</p>
-        </div>
-        </div> */}
-
-        {/* <div className="mx-4 bg-white w-94 ">
-        <div className="p-20 border-black border-4 rounded-lg">
-            <h2 className="mb-2 text-xl font-bold text-center text-black lg:text-2xl">GUIDING PRINCIPLES</h2>
-            <p classname="text-md text-black"> <h1 className="font-bold">The five guiding principles driving the Intervalle PPP programme are:</h1><br></br>
-    1 Local ownership and alignment with country goals.<br></br>
-    2 Multi-stakeholder engagement with open and inclusive approaches in supporting
-        small holders.<br></br>
-    3.A market-driven approach led by the private sector and rooted in viable business
-        cases for both public and private parties.<br></br>
-    4. Global support by an international network providing solidarity and support.4. Global support by an international network providing solidarity and support.<br></br>
-    5. Holistic promotion on best practices on land governance and integrating full 
-        value chains that benefit all actors in the Food & Agriculture sector.</p>
-        </div>
-    </div> */}
         </section>
 
         </>

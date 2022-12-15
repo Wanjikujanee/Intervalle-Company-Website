@@ -1,6 +1,7 @@
 import React from "react";
 import {GoCheck} from "react-icons/go";
 
+
             const About =()=>{
                 const data = [
                     {
@@ -11,12 +12,12 @@ import {GoCheck} from "react-icons/go";
                     {
                         title: 'Vision',
                         description: "Intervalle has a vision to participate to the game changer of the Agricultural sector in West Africa by providing agricultural related " +
-                            "innovative solutions with first classname coalition strategic and technical partners in an integrated value c hain approach."
+                            "innovative solutions with first classname coalition strategic and technical partners in an integrated value chain approach."
                     },
                     {
                         title: 'Objective',
                         description: "Our objectives are to assist clients with the execution of their projects in a timeous manner in an efficient manner. As a company we have the track record and confidence in our ability to generate the consensus and commitments necessary to succeed. We are prepared to stand by our recommendations and to assist our clients obtain the necessary " +
-                            "appropriate approvals as well asacquiring the appropriate skills necessary to proceed."
+                            "appropriate approvals."
                     }
                 ];
 
@@ -47,61 +48,58 @@ import {GoCheck} from "react-icons/go";
                         description: 'We accept responsibility for our actions and inactions, it defines our ultimate way to build trust.'
                     }
                 ]
+
+               
+
                 return(
 
                     <>
 
                     <section className="w-full" id="About">
 
-
                         <div style={{
                             background: "url(images/VALUE.jpg)",
                             backgroundSize: "cover",
                             backgroundRepeat: "no-repeat"
-                        }} className="flex items-center justify-center p-24 bg-cover bg-no-repeat">
-                            <div className={'p-8 bg-black/40 text-white md:w-2/3 lg:w-1/2 '}>
-                                <h5 className=" text-xl  lg:text-3xl font-medium mb-3">About</h5>
-     
-                                 
-<p class="mb-3  first-line:tracking-widest first-letter:text-7xl first-letter:font-bold  first-letter:mr-3 first-letter:float-left">   
-                                    Consulting & Agricultural Value Chain Company. Registered
+                        }} className="flex  p-24 bg-cover bg-no-repeat">
+                             <div className={'w-[70vw] bg-black/40 p-10'}>
+                        <h5 className="text-xl  lg:text-3xl font-medium mb-3 text-white">About</h5>
+                        <p className="text-white mb-3 text-1xl first-line:tracking-widest first-letter:text-5xl first-letter:font-bold  first-letter:mr-3 tracking-wide ">
+                        Consulting & Agricultural Value Chain Company. Registered
                                     in Geneva in 1984, Intervalle Genève SA is active in the
                                     structuring of soft commodities value chain programs and
-                                    is the promoter of “West African Rice Corridor Project” and
+                                    is the promoter of<r className="text-red-400">“West African Rice Corridor Project”</r>  and
                                     related full value chain food programs within the sub region.
                                     Our approach is to establish bankable and sustainable full
-                                    value chain projects through Private Public Partnerships.</p>
+                                    value chain projects through Private Public Partnerships.
 
-<p class="">                        Intervalle has a <u class="underline">vision</u>  to revolutionize the rice sector in West
+                                    Intervalle has a <b className="font-bold">vision</b>  to revolutionize the rice sector in West
                                     Africa by leading the production of high-quality milled rice
-                                    through an integrated value chain approach.</p>
+                                    through an integrated value chain approach.
 
- <p class="">                       Intervalle is also working on other value chains <em class="font-italic">such as tomato
+                                    Intervalle is also working on other value chains <em class="font-italic font-bold">such as tomato
                                     value chain and poultry value chain project.</em>
                                     Intervalle Genève S.A in July 2018, contracted with the Ministry
                                     of Food and Agriculture(MOFA) to co-execute the Rice Chapter
                                     of Planting for Food and Jobs in Ghana and lead the current
-                                    Public Private Partnership (PPP) Rice Project.</p>
+                                    Public Private Partnership (PPP) Rice Project.
 
- <p class="">                       Intervalle employs qualified and innovative individuals who have
-                                    the necessary skills and experience to respond to today’s
-                                    challenging needs in the Agricultural sector. 'The focus of
-                                    Intervalle is finding and providing tailor made solutions and
-                                    exceeding client satisfaction, these are the attributes that
-                                    motivates the dedicated team at Intervalle'.</p>
-
-                            </div>
-
+                                    
+                                    Intervalle Genève S.A in July 2018, contracted with the Ministry
+                                    of Food and Agriculture(MOFA) to co-execute the Rice Chapter
+                                    of Planting for Food and Jobs in Ghana and lead the current
+                                    Public Private Partnership (PPP) Rice Project.
+                                    <a href="https://www.northdata.com/Intervalle+Gen%C3%A8ve+SA,+Gen%C3%A8ve/CHE-103.241.397" target="_blank">
+                                  <button className="font-medium text-red-600 dark:text-red-500 hover:underline"> Read More </button>
+                                    </a> 
+                        </p>
+                        </div>
                         </div>
 
                 </section>
 
-            <div className="bg-white h-5"></div>
-
             <section>
-                <div className="text-align: center">
-            
-                </div>
+    
                 <div className="flex items-center justify-center gap-8 h-[80vh] w-full">
                     <div className="w-[70vw] grid items-start justify-center md:grid-cols-[1fr_0.8fr_0.8fr] gap-8">
                         {
@@ -147,7 +145,7 @@ import {GoCheck} from "react-icons/go";
             </div>
             </section>
 
-
+  
 
                     </>
         );

@@ -46,7 +46,6 @@ const Navbar =()=>{
                           Contact
                         </a>
                       </li>
-                      <button type="button" class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-red-800 bg-white rounded-lg border hover:bg-red-600 hover:text-white    dark:bg-red-400  ">Know More</button>
 
                   </ul>
                 </div>
