@@ -1,6 +1,4 @@
 import React from "react";
-import {motion} from "framer-motion";
-import { useRef,useEffect,useState } from 'react';
 
 const Home =()=>{
     return(
@@ -22,7 +20,7 @@ const Home =()=>{
 
                      <section className={' flex flex-col items-center justify-center py-12'} id={'Project'}>
                     <div className={'w-[70vw] '}>
-                        <motion.h5 animate={{}}className="mb-1 text-3xl font-medium text-black">Overview</motion.h5>
+                        <h5 className="mb-1 text-3xl font-medium text-black">Overview</h5>
                         <p>
                         Intervalle Genève SA incorporated in Geneva in 1984 taken over in 2014.
                                 and has its subsidiary in Ghana as Intervalle Genève-Ghana branch. It is

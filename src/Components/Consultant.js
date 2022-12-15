@@ -2,7 +2,7 @@ import React from "react";
 import { FaLinkedin} from 'react-icons/fa';
 
 
-const Consultants = () => {
+const Consultant = () => {
   const consultants = [
     {
       image: "VEKUA.jpeg",
@@ -265,4 +265,4 @@ qualities she exudes.
 
   );
 };
-export default Consultants;
+export default Consultant;
