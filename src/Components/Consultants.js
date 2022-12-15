@@ -139,7 +139,6 @@ const Consultants = () => {
      
       <section>
                   <div className="p-24  flex justify-center justify-evenly ">
-                    <div className="fixed-bottom-16 "></div>
                     <div className="group rounded-lg relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-red-500 transition-shadow ">
                       <div className="h-96 w-72">
                         <img className="h-full w-full object-cover group-hover group-hover:scale-125 "src="images/Njack.jpg"/>
@@ -167,9 +166,10 @@ Red Cross” (IFRC) steering committee for the 1BC and “Wings of Hope”</p>
                       <h2 className="text-sm  text-white mb-3 duration-300">CFO & Administrator </h2>
                       <p className="text-sm italic text-white mb-3 duration-300"> Senior Banking Executive in Commodity Trade Finance (CTF) with more than
 thirty-year experience in Swiss, international and multicultural banking
-environment; former Head CTF of Credit Suisse, Geneva.<a href="https://www.linkedin.com/in/giannisargenti19/" target="_blank">
-                                  < FaLinkedin className="font-medium text-blue-600 dark:text-blue-700 hover:underline h-7 w-7 "/>
-                                    </a> </p>
+environment; former Head CTF of Credit Suisse, Geneva. </p>
+<a href="https://www.linkedin.com/in/giannisargenti19/" target="_blank">
+                                  < FaLinkedin className="font-medium text-white dark:text-blue-900 hover:underline h-7 w-7 "/>
+                                    </a>
                       </div>
                     </div>
 
@@ -185,18 +185,19 @@ environment; former Head CTF of Credit Suisse, Geneva.<a href="https://www.linke
                       <p className="text-sm italic text-white mb-3 duration-300">  For nearly 25 years, as an engineer, consultant and then IS manager for
                 multinational companies with a Swiss Federal Certificate of Competence ,the management and
 compliance of applications, infrastructures and information systems departments
-form the core of his past activities.<a href="https://www.linkedin.com/in/kevin-monay-b46740214/" target="_blank">
-                                  < FaLinkedin className="font-medium text-blue-600 dark:text-blue-700 hover:underline h-7 w-7 "/>
-                                    </a>
+form the core of his past activities.
 </p>
+<a href="https://www.linkedin.com/in/kevin-monay-b46740214/" target="_blank">
+                                  < FaLinkedin className="font-medium text-white dark:text-blue-900 hover:underline h-7 w-7 "/>
+                                    </a>
                       </div>
                     </div>
 
                   </div> 
 
-                  <div className="p-24  flex justify-center justify-evenly ">
-                    <div className="fixed-bottom-16 "></div>
-                    <div className="group  rounded-lg relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-red-500 transition-shadow ">
+
+                  <div className="  flex justify-center justify-evenly ">
+                    <div className="group  rounded-lg relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-red-500 transition-shadow gap-2">
                       <div className="h-96 w-72">
                         <img className="h-full w-full object-cover group-hover group-hover:scale-125 "src="images/jimmy.jpeg"/>
                       </div>
@@ -206,10 +207,11 @@ form the core of his past activities.<a href="https://www.linkedin.com/in/kevin-
                       <h1 className="text-3xl font-bold  text-white">Jimmy Verdeil </h1>
                       <h2 className="text-sm  text-white mb-3 duration-300">Senior Trader</h2>
                       <p className="text-sm italic text-white mb-3 duration-300"> Current Project Manager for the rice project. He pursued his passion for  Civil Engineering acquired at a young age and now holds a First-className B.Sc.where he has been working since 2019.
-                      <a href="https://www.linkedin.com/in/jimmy-verdeil-050754239/" target="_blank">
-                                  < FaLinkedin className="font-medium text-blue-600 dark:text-blue-700 hover:underline h-7 w-7 "/>
-                                    </a>
+                     
  </p>
+ <a href="https://www.linkedin.com/in/jimmy-verdeil-050754239/" target="_blank">
+                                  < FaLinkedin className="font-medium text-white dark:text-blue-900 hover:underline h-7 w-7 "/>
+                                    </a>
                       </div>
                     </div>
 
@@ -224,10 +226,11 @@ form the core of his past activities.<a href="https://www.linkedin.com/in/kevin-
                       <h2 className="text-sm  text-white mb-3 duration-300">GIANNI SARGENTI </h2>
                       <p className="text-sm italic text-white mb-3 duration-300"> Senior Banking Executive in Commodity Trade Finance (CTF) with more than  thirty-year experience in Swiss, international and multicultural banking .He applied his problem solving, critical thinking and research skills to support the
 development of financial projections, budgets, and operational models for various
-company’s projects.<a href="https://www.linkedin.com/in/simeon-ndahimana-659998216/" target="_blank">
-                                  < FaLinkedin className="font-medium text-blue-600 dark:text-blue-900 hover:underline h-7 w-7 "/>
-                                    </a>
+company’s projects.
 </p>
+<a href="https://www.linkedin.com/in/simeon-ndahimana-659998216/" target="_blank">
+                                  < FaLinkedin className="font-medium text-white dark:text-blue-900 hover:underline h-7 w-7 "/>
+                                    </a>
                       </div>
                     </div>
 
@@ -247,11 +250,10 @@ Reliable, highly organized, detail-orientated and blessed with an innate ability
 read, understand and connect with people are just some of the professional
 qualities she exudes.
 qualities she exudes.
-  <a href="https://www.linkedin.com/in/maryse-tay-640a40146/" target="_blank">
-                                  < FaLinkedin className="font-medium text-blue-600 dark:text-blue-700 hover:underline h-7 w-7 "/>
-                                    </a>
-
 </p>
+<a href="https://www.linkedin.com/in/maryse-tay-640a40146/" target="_blank">
+                                  < FaLinkedin className="font-medium text-white dark:text-blue-900 hover:underline h-7 w-7 "/>
+                                    </a>
                       </div>
                     </div>
 

@@ -118,7 +118,7 @@ const Partner =()=>{
 
 
 
-{/* <div id="animation-carousel" class="relative" data-carousel="static">
+<div id="animation-carousel" class="relative" data-carousel="static">
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
 
         <div class="hidden duration-200 ease-linear" data-carousel-item>
@@ -153,7 +153,7 @@ const Partner =()=>{
             <span class="sr-only">Next</span>
         </span>
     </button> 
-</div> */}
+</div> 
 
 
 

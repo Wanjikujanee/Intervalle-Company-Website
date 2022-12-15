@@ -93,22 +93,27 @@ import React from "react";
                       <div className="container px-6 pt-6">
                         <div className="grid lg:grid-cols-2 md:grid-cols-2">
                           <div className="mb-6">
-                            <h5 className="uppercase font-bold mb-2.5">Contact</h5>
+                            <h5 className="uppercase font-bold mb-2.5">Industry/NOGA</h5>
                             <ul className="list-none mb-0">
                               <li>
-                                <a href="#!" className="text-white">+41 22 552 1112</a>
-                                <a href="#!" className="text-white">+41 22 552 1112</a>
+                                <h2 className="text-white">Legal form:103.241.397/Limited</h2>
+                                <h2 className="text-white">Size: Micro (1-9 emp.)</h2>
+                                <h2 className="text-white">GE-1206 Geneve</h2>
+
+
 
                               </li>
                             </ul>
                           </div>
                           <div className="mb-6 float-right">
-                            <h5 className="uppercase font-bold mb-2.5">Location</h5>
+                            <h1 className="uppercase font-bold mb-2.5">ADDRESS</h1>
+                            <h2 className="">Rue du Mont-de-Sion 8</h2>
+                            <h3 className="">+41 22 552 1112</h3>
                             <ul className="list-none mb-0">
                               <li>
-                                <a href="#!" className="text-white">Rue du Mont-de Sion 8 – 1206
-                    P.O.Box 5159 – 1204
-                    Geneva, Switzerland
+                                <a href="https://business-monitor.ch/en/list-builder?filters%5Bmunicipality_number%5D%5B%5D=6621" className="text-white underline">1206 Genève 
+
+                   
                     </a>
                               </li>
                             </ul>

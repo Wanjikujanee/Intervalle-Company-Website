@@ -61,10 +61,10 @@ import {GoCheck} from "react-icons/go";
                             background: "url(images/VALUE.jpg)",
                             backgroundSize: "cover",
                             backgroundRepeat: "no-repeat"
-                        }} className="flex  p-24 bg-cover bg-no-repeat">
-                             <div className={'w-[70vw] bg-black/40 p-10'}>
-                        <h5 className="text-xl  lg:text-3xl font-medium mb-3 text-white">About</h5>
-                        <p className="text-white mb-3 text-1xl first-line:tracking-widest first-letter:text-5xl first-letter:font-bold  first-letter:mr-3 tracking-wide ">
+                        }} className="flex p-40 bg-cover bg-no-repeat">
+                             <div className={'w-[70vw] bg-black/40 p-10 '}>
+                        <h5 className="text-xl lg:text-3xl font-medium mb-3 text-white ">About</h5>
+                        <p className="text-white mb-3 text-1xl first-line:tracking-widest first-letter:text-5xl first-letter:font-bold  first-letter:mr-3 tracking-wide  ">
                         Consulting & Agricultural Value Chain Company. Registered
                                     in Geneva in 1984, Intervalle Genève SA is active in the
                                     structuring of soft commodities value chain programs and
@@ -97,6 +97,8 @@ import {GoCheck} from "react-icons/go";
                         </div>
 
                 </section>
+
+
 
             <section>
     
