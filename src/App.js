@@ -1,12 +1,15 @@
 import React from 'react'; 
-import Navbar from './Components/Navbar';
-import Partner from './Components/Partner';
-import Project from './Components/Project';
 import Home from './Components/Home';
-import Consultant from './Components/Consultant'; 
-import Contact from './Components/Contact';
+import Navbar from './Components/Navbar';
 import About from './Components/About'
-// import About from './Components/About';     `                                                                                                                                                                                                   `
+import Project from './Components/Project';
+import Consultant from './Components/Consultant';
+import Partner from './Components/Partner'; 
+import Contact from './Components/Contact';
+
+
+
+
 
 
 
@@ -20,9 +23,10 @@ function App(){
             <Home/>
             <About/>
             <Project/>
+            <Consultant/>
             <Partner/>
              <Contact/>
-             <Consultant/>
+            
            
          
           </>
